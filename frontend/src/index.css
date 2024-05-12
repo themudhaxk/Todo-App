@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+html {
+  font-size: 10px;
+}
+
+
+body {
+  /* background-image: linear-gradient(to top, #fbc2eb, #a6c1ee); */
+  background-color: white;
+  height: 100%; /* Equivalent to h-screen in Tailwind */
+  background-attachment: fixed; 
+  color: #000;
+  font-family: "Amazon Ember";
+  overflow-x: hidden;
+}
+
+
+
+input,
+textarea {
+  color: #000;
+}
